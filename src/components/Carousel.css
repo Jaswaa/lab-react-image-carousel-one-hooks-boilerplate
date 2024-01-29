@@ -1,1 +1,41 @@
 /* write down the css for Carousel in this file */
+.parent-div {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.carousel-img {
+    height: 85vh;
+    width: 100%;
+}
+
+.title-box {
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 0.7;
+    top: 15%;
+    width: fit-content;
+}
+
+.content-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.arrow-button {
+    border: none;
+    cursor: pointer;
+}
+
+.subtitle-box {
+    position: absolute;
+    background-color: #ffffffda;
+    opacity: 0.7;
+    top: 65%;
+}
+
+
